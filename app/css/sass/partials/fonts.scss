@@ -1,0 +1,18 @@
+//fonts
+$sanFrancisco: "SanFrancisco";
+
+//urls
+$sanFrancisco-woff2: url("fonts/sanfranciscodisplay-regular-webfont.woff2");
+$sanFrancisco-woff: url("fonts/sanfranciscodisplay-regular-webfont.woff");
+$sanFrancisco-ttf: url("fonts/sanfranciscodisplay-regular-webfont.ttf");
+$sanFrancisco-svg: url("fonts/sanfranciscodisplay-regular-webfont.svg");
+$sanFrancisco-eot: url("fonts/sanfranciscodisplay-regular-webfont.eot");
+
+@font-face {
+  font-family: $sanFrancisco;
+  src: $sanFrancisco-woff2 format("woff2"),
+    $sanFrancisco-woff format("woff"),
+    $sanFrancisco-ttf format("truetype"),
+    $sanFrancisco-svg format("svg"),
+    $sanFrancisco-eot format("eot");
+}

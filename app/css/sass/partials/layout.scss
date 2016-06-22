@@ -1,0 +1,144 @@
+header {
+  background: $dark-gray;
+  font-size: 1.25em;
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+}
+nav {
+  margin: 0;
+  padding: .15em;
+  text-align: center;
+  ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    font-weight: normal;
+    padding: .5em 1.25em;
+  }
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+}
+.menu-bars {
+  display: none;
+}
+footer {
+  padding-bottom: 2em;
+  ul {
+    margin: 0;
+    text-align: center;
+  }
+  li {
+    color: $white;
+    display: inline-block;
+    font-size: .75em;
+    padding: 0 .5em;
+    &:first-child {
+      margin-right: 1em;
+    }
+  }
+}
+h1 {
+  font-size: 1.25em;
+  font-weight: normal;
+  margin: 0 0 .5em;
+}
+p {
+  font-size: .95em;
+  margin: .75em 0 0;
+}
+.image {
+  background-color: $light-gray;
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid $black;
+  box-shadow: 0 0 30px 0 $black-opaque;
+  display: table-cell;
+  height: 140px;
+  width: 300px;
+}
+.nightsky {
+  background-image: $nightsky;
+}
+.concert-hands {
+  background-image: $concert-hands;
+}
+.guitar-amp {
+  background-image: $guitar-amp;
+}
+.musician-desert {
+  background-image: $musician-desert;
+}
+.top-songs {
+  margin-top: 1em;
+  h1 {
+    border-bottom: 1px solid $medium-gray;
+    margin-bottom: .5em;
+  }
+  .row {
+    margin: 0 0 .4em;
+  }
+  img {
+    border-radius: 50%;
+    box-shadow: 0 5px 10px 0 $black-opaque;
+    display: inline-block;
+    height: 45px;
+    vertical-align: middle;
+    width: 45px;
+  }
+}
+.cover {
+  margin-right: 10px;
+  padding: 0;
+  width: auto;
+}
+.artist {
+  margin-bottom: .75em;
+  padding: 0;
+  p {
+    margin: 0 0 .25em;
+  }
+  .album {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+.expand {
+  display: none;
+}
+
+/* SVG icons */
+.chevron-down,
+.chevron-down {
+  background-size: 16px 16px;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+}
+.chevron-down {
+  background: url(../img/svg/chevron-arrow-down.svg) no-repeat;
+}
+.chevron-up {
+  background: url(../img/svg/chevron-arrow-up.svg) no-repeat;
+}
+.bars,
+.magnifying-glass {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+.bars {
+  background: url(../img/svg/menu-bars.svg) no-repeat;
+  background-size: 20px 20px;
+}
+.magnifying-glass {
+  background: url(../img/svg/magnifying-glass.svg) no-repeat;
+  background-size: 20px 20px;
+}
