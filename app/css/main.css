@@ -25,7 +25,9 @@ body {
   color: #fff;
   font-family: "SanFrancisco", sans-serif;
   font-size: 1em;
+  -webkit-font-smoothing: antialiased;
   margin: 0;
+  text-rendering: optimizeLegibility;
 }
 a {
   color: #00b4f8;
