@@ -5,6 +5,8 @@
 
 Music Browser is a fictional music discovery and news platform aimed at music enthusiasts. The "website" is intended to allow users to view articles on new music, discover emerging artists and view trending songs curated by users.
 
+<img src="https://github.com/AllThingsSmitty/musicbrowser/blob/master/assets/img/desktop.png" alt="desktop version of the music browser app">
+
 
 ## Instructions
 
