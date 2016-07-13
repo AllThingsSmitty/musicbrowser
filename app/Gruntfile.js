@@ -11,17 +11,6 @@ module.exports = function (grunt) {
       tasks: ['sass', 'cssmin']
     },
     sass: require('./modules/sass').task,
-    sass: {
-      dist: {
-        files: [{
-          expand: true,
-          cwd: 'styles',
-          src: ['*.scss'],
-          dest: 'css',
-          ext: '.css'
-        }]
-      }
-    },
     cssmin: require('./modules/cssmin').task,
     uglify: {
       js: {
